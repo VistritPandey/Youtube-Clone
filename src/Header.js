@@ -10,14 +10,18 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 function Header() {
     return (
         <div className="header">
-            <MenuIcon />
+        <div className="header__left">
+        <MenuIcon />
             <img className="header__logo" src="https://www.clipartkey.com/mpngs/m/38-389855_youtube-red-transparent-background-youtube-icon.png" alt=""/>
+        </div>
+        <div className="header__left">
             <input type ="text"></input>
             <SearchIcon />
             <VideoCallIcon />
             <AppsIcon />
             <NotificationslIcon />
             <AccountCircleIcon />
+        </div>
         </div>
     )
 }
