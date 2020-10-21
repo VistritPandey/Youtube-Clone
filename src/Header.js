@@ -16,7 +16,7 @@ function Header() {
         </div>
         <div className="header__input">
         <input type ="text"></input>
-            <SearchIcon />
+            <SearchIcon className="header__inputButton"/>
         </div>
         <div className="header__left">
             <VideoCallIcon />

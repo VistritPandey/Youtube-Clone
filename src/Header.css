@@ -2,8 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
 .header__logo{
     height: 25px;
     object-fit: contain;
+    margin-left: 5px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__input> input{
+    flex: 1;
+    border: none;
+}
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
 }
