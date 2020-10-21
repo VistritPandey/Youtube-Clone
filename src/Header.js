@@ -15,7 +15,7 @@ function Header() {
             <img className="header__logo" src="https://www.clipartkey.com/mpngs/m/38-389855_youtube-red-transparent-background-youtube-icon.png" alt=""/>
         </div>
         <div className="header__input">
-        <input type ="text"></input>
+        <input placeholder="Search whatever you want" type ="text"></input>
             <SearchIcon className="header__inputButton"/>
         </div>
         <div className="header__left">
