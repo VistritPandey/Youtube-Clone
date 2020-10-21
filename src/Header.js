@@ -5,6 +5,7 @@ import SearchIcon from "@material-ui/icons/Search"
 import VideoCallIcon from "@material-ui/icons/VideoCall"
 import AppsIcon from "@material-ui/icons/Apps"
 import NotificationslIcon from "@material-ui/icons/Notifications"
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Header() {
     return (
@@ -16,6 +17,7 @@ function Header() {
             <VideoCallIcon />
             <AppsIcon />
             <NotificationslIcon />
+            <AccountCircleIcon />
         </div>
     )
 }
