@@ -1,10 +1,10 @@
-import './Redcommended.css'
+import './Recommended.css'
 import React from 'react'
 
 function Recommended() {
     return (
-        <div>
-            
+        <div className="recommended">
+            <h2>I am Recommended</h2>
         </div>
     )
 }

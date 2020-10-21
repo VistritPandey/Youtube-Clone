@@ -12,7 +12,6 @@ function App() {
       <Sidebar />
       <Recommended />
       </div>
-
     </div>
   );
 }
