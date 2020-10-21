@@ -14,9 +14,11 @@ function Header() {
         <MenuIcon />
             <img className="header__logo" src="https://www.clipartkey.com/mpngs/m/38-389855_youtube-red-transparent-background-youtube-icon.png" alt=""/>
         </div>
-        <div className="header__left">
-            <input type ="text"></input>
+        <div className="header__input">
+        <input type ="text"></input>
             <SearchIcon />
+        </div>
+        <div className="header__left">
             <VideoCallIcon />
             <AppsIcon />
             <NotificationslIcon />
