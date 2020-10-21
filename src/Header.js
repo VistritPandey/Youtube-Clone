@@ -3,6 +3,8 @@ import './Header.css'
 import MenuIcon from "@material-ui/icons/Menu"
 import SearchIcon from "@material-ui/icons/Search"
 import VideoCallIcon from "@material-ui/icons/VideoCall"
+import AppsIcon from "@material-ui/icons/Apps"
+import NotificationslIcon from "@material-ui/icons/Notifications"
 
 function Header() {
     return (
@@ -12,6 +14,8 @@ function Header() {
             <input type ="text"></input>
             <SearchIcon />
             <VideoCallIcon />
+            <AppsIcon />
+            <NotificationslIcon />
         </div>
     )
 }
