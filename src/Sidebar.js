@@ -21,7 +21,7 @@ function Sidebar() {
             <SidebarRow Icon={VideoLibraryIcon} title="Library"/>
             <SidebarRow Icon={HistoryIcon} title="History"/>
             <SidebarRow Icon={OnDemandVideoIcon} title="Your Videos"/>
-            <SidebarRow selected Icon={WatchLaterIcon} title="Watch Later"/>
+            <SidebarRow Icon={WatchLaterIcon} title="Watch Later"/>
             <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked Videos"/>
             <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show More"/>
             <hr />
