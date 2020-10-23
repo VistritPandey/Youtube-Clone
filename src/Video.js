@@ -5,7 +5,7 @@ import Avatar from "@material-ui/core/Avatar"
 function Video({image , title, channel, views, timestamp , channelImage }) {
     return (
         <div className="video">
-           <img src = {image} alt =""/>
+           <img className="video__thumbnail" src = {image} alt =""/>
            <div className="video__info">
               <Avatar className="video__avatar" alt={channel} src={channelImage}/>
             <div className="video__text">

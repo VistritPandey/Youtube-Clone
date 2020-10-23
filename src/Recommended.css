@@ -8,3 +8,7 @@
     margin-left: 5px;
     margin-bottom: 20px;
 }
+.recommeded__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
