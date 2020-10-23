@@ -6,6 +6,7 @@ import VideoCallIcon from "@material-ui/icons/VideoCall"
 import AppsIcon from "@material-ui/icons/Apps"
 import NotificationslIcon from "@material-ui/icons/Notifications"
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Link} from "react-router-dom";
 
 function Header() {
     const [inputSearch, setInputSearch] = useState("");
@@ -16,8 +17,10 @@ function Header() {
             <img className="header__logo" src="https://www.clipartkey.com/mpngs/m/38-389855_youtube-red-transparent-background-youtube-icon.png" alt=""/>
         </div>
         <div className="header__input">
-        <input value={inputSearch} placeholder="Search whatever you want" type ="text"></input>
+        <input onChange={e => setInputSearch(e.target.value)} value={inputSearch} placeholder="Search whatever you want" type ="text"></input>
+           <Link to={`/search/${inputSearch}`}>
             <SearchIcon className="header__inputButton"/>
+            </Link>
         </div>
         <div className="header__left">
             <VideoCallIcon />

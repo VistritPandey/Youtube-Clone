@@ -12,7 +12,10 @@ function App() {
     <Header />
       <Switch>
         <Route path="/search/:searchTerm">
-          <h1>search page</h1>
+        <div className="app__page">
+            <Sidebar />
+            <h2>Youtube does not have any API or Video Link to let me route to this page. So its Blank :)</h2>
+            </div>
         </Route>
         <Route path="/">
           <div className="app__page">
