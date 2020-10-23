@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import MenuIcon from "@material-ui/icons/Menu"
 import SearchIcon from "@material-ui/icons/Search"
@@ -8,6 +8,7 @@ import NotificationslIcon from "@material-ui/icons/Notifications"
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Header() {
+    const [inputSearch, setInputSearch] = useState("");
     return (
         <div className="header">
         <div className="header__left">
@@ -15,7 +16,7 @@ function Header() {
             <img className="header__logo" src="https://www.clipartkey.com/mpngs/m/38-389855_youtube-red-transparent-background-youtube-icon.png" alt=""/>
         </div>
         <div className="header__input">
-        <input placeholder="Search whatever you want" type ="text"></input>
+        <input value={inputSearch} placeholder="Search whatever you want" type ="text"></input>
             <SearchIcon className="header__inputButton"/>
         </div>
         <div className="header__left">
